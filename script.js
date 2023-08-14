@@ -166,6 +166,7 @@ escolhaJhon.addEventListener('click',function(){
         botaoHabilidade2.addEventListener('click',function(){
         botaoAtaque.style.display = 'none';
         botaoHabilidade.style.display = 'none'
+        botaoHabilidade2.style.display = 'none';
         voceFoto.style.animation = 'danca 0.2s 10 alternate'
         setTimeout(animacao,2000);
         texto = document.createTextNode('Dansa gatinho dansa')
@@ -1094,7 +1095,7 @@ function voltaBatalhaHabilidade(){
     textoDuelo.style.display = 'none';
     botaoAtaqueH.style.display = 'inline-block';
     botaoAtaqueH.style.marginLeft = '250px'
-    botaoHabilidade.style.display = 'none';    
+    
         
 }
 function voltaBatalhaHabilidadeGu(){
