@@ -1094,7 +1094,7 @@ function voltaBatalhaHabilidade(){
     textoDuelo.style.display = 'none';
     botaoAtaqueH.style.display = 'inline-block';
     botaoAtaqueH.style.marginLeft = '250px'
-    
+    botaoHabilidade.style.display = 'none';    
         
 }
 function voltaBatalhaHabilidadeGu(){
